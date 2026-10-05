@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/mockery-mockery",
+    "description": "Tyhp type definitions for mockery/mockery 1.6.15.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.6.15",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/mockery-mockery-impl": "~1.6.15.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/mockery-mockery-impl"
+        }
+    }
+}
